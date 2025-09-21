@@ -126,7 +126,6 @@ public class TestList {
     assertTrue(list.containsAll(List.of(33, 44, 55, 66, 77)));
     // 2) assert that list does not contain all of 11, 22, and 33
     assertFalse(list.containsAll(List.of(11, 22, 33)));
-    fail("Not yet implemented"); // remove this line when done
   }
 
   @Test
